@@ -1,7 +1,7 @@
 ---
 title: "Docker 네트워크 실험 02 — Network Namespace와 veth"
 date: "2026-11-11T00:00:00+09:00"
-draft: true
+draft: false
 description: "두 Network Namespace를 veth pair로 연결하고 ICMP 통신과 이웃 주소 해석을 확인한 기록."
 categories: ["study", "docker-network-lab"]
 tags: ["Linux", "Docker", "Networking", "Network Namespace", "veth"]

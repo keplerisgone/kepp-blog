@@ -1,7 +1,7 @@
 ---
 title: "Docker 네트워크 실험 01 — Linux 네트워크 기초"
 date: "2026-11-11T00:00:00+09:00"
-draft: true
+draft: false
 description: "라우팅 조회, ARP와 Neighbor Table, ICMP 패킷 캡처 실험 기록."
 categories: ["study", "docker-network-lab"]
 tags: ["Linux", "Networking", "Routing", "ARP", "ICMP"]

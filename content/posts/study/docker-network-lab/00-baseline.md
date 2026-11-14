@@ -1,7 +1,7 @@
 ---
 title: "Docker 네트워크 실험 00 — 호스트 네트워크 기준선"
 date: "2026-11-09T20:04:56+09:00"
-draft: true
+draft: false
 description: "Docker 데몬 실행 전후의 인터페이스, 라우팅, 소켓 변화를 관찰한 기록."
 categories: ["study", "docker-network-lab"]
 tags: ["Linux", "Docker", "Networking", "Routing"]
