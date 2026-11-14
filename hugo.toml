@@ -1,0 +1,51 @@
+
+baseURL = "https://keplerisgone.github.io/kepp-blog/"
+locale = "en-us"
+title = "KEPP's Tech Blog"
+theme = "PaperMod"
+timeZone = "Asia/Seoul"
+
+[pagination]
+pagerSize = 10
+
+[params]
+description = "Linux, Embedded Systems, and C/C++"
+author = "kepp"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowToc = true
+TocOpen = false
+ShowCodeCopyButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowShareButtons = false
+
+[params.homeInfoParams]
+Title = "KEPP's Tech Blog"
+Content = "Notes, experiments, and projects about Linux systems programming and embedded software."
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/keplerisgone"
+
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+name = "Categories"
+url = "/categories/"
+weight = 20
+
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 30
+
+[markup.highlight]
+noClasses = false
+
+[outputs]
+home = ["HTML", "RSS"]
+
