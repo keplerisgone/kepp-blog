@@ -4,8 +4,10 @@ date: "2026-08-04T16:16:27+09:00"
 lastmod: "2026-08-04T16:16:27+09:00"
 draft: false
 description: ""
-categories: ["project"]
+categories: ["project", "리눅스-프로그래밍-프로젝트"]
 tags: []
+url: "/posts/project/day-3-mini-cp-구현하기/"
+weight: 3
 ShowToc: true
 ---
 

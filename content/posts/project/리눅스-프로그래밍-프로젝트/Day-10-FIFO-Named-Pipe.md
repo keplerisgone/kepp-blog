@@ -4,8 +4,10 @@ date: "2026-08-17T12:53:33+09:00"
 lastmod: "2026-08-17T12:53:33+09:00"
 draft: false
 description: ""
-categories: ["project"]
+categories: ["project", "리눅스-프로그래밍-프로젝트"]
 tags: []
+url: "/posts/project/day-10-fifo-named-pipe/"
+weight: 10
 ShowToc: true
 ---
 

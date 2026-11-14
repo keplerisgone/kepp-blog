@@ -4,8 +4,10 @@ date: "2026-08-25T14:22:01+09:00"
 lastmod: "2026-08-25T14:22:01+09:00"
 draft: false
 description: ""
-categories: ["project"]
+categories: ["project", "리눅스-프로그래밍-프로젝트"]
 tags: []
+url: "/posts/project/day-12-posix-shared-memory와-mmap/"
+weight: 12
 ShowToc: true
 ---
 

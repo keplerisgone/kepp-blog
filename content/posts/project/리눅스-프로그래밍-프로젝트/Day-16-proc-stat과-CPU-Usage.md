@@ -4,8 +4,10 @@ date: "2026-09-01T14:25:14+09:00"
 lastmod: "2026-09-01T14:25:14+09:00"
 draft: false
 description: ""
-categories: ["project"]
+categories: ["project", "리눅스-프로그래밍-프로젝트"]
 tags: []
+url: "/posts/project/day-16-proc-stat과-cpu-usage/"
+weight: 16
 ShowToc: true
 ---
 

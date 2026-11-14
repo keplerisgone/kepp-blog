@@ -4,8 +4,10 @@ date: "2026-07-25T13:08:00+09:00"
 lastmod: "2026-07-25T13:08:00+09:00"
 draft: false
 description: ""
-categories: ["project"]
+categories: ["project", "리눅스-프로그래밍-프로젝트"]
 tags: []
+url: "/posts/project/day-1-명령행-인자와-파일-입출력/"
+weight: 1
 ShowToc: true
 ---
 

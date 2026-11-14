@@ -4,8 +4,10 @@ date: "2026-08-07T20:27:14+09:00"
 lastmod: "2026-08-07T20:27:14+09:00"
 draft: false
 description: ""
-categories: ["project"]
+categories: ["project", "리눅스-프로그래밍-프로젝트"]
 tags: []
+url: "/posts/project/day-6-fork와-waitpid/"
+weight: 6
 ShowToc: true
 ---
 

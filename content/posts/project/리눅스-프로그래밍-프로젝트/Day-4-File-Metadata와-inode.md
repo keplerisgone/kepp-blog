@@ -4,8 +4,10 @@ date: "2026-08-06T20:00:16+09:00"
 lastmod: "2026-08-06T20:00:16+09:00"
 draft: false
 description: ""
-categories: ["project"]
+categories: ["project", "리눅스-프로그래밍-프로젝트"]
 tags: []
+url: "/posts/project/day-4-file-metadata와-inode/"
+weight: 4
 ShowToc: true
 ---
 

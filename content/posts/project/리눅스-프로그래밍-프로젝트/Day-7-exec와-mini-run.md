@@ -4,8 +4,10 @@ date: "2026-08-13T22:03:28+09:00"
 lastmod: "2026-08-13T22:03:28+09:00"
 draft: false
 description: ""
-categories: ["project"]
+categories: ["project", "리눅스-프로그래밍-프로젝트"]
 tags: []
+url: "/posts/project/day-7-exec와-mini-run/"
+weight: 7
 ShowToc: true
 ---
 
