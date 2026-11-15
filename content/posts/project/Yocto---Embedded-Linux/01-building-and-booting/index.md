@@ -1,8 +1,14 @@
-# Building and Booting Custom Embedded Linux with Yocto on Raspberry Pi 4
-
-**Environment:** Yocto Project 6.0 (Wrynose), Raspberry Pi 4 Model B (4 GB), Omarchy (Arch Linux), Ubuntu 24.04 (Distrobox)
-
-**Topics:** Yocto, BitBake, Embedded Linux, UART, Linux Boot Process, TTY
+---
+title: "01: Building and Booting Custom Embedded Linux with Yocto on Raspberry Pi 4"
+date: "2026-11-15T00:00:00+09:00"
+lastmod: "2026-11-15T00:00:00+09:00"
+draft: false
+description: "Build a minimal Yocto Linux image for Raspberry Pi 4 and establish a UART serial console."
+categories: ["project", "Yocto---Embedded-Linux"]
+tags: ["Yocto", "BitBake", "Embedded Linux", "Raspberry Pi", "UART", "TTY"]
+weight: 1
+ShowToc: true
+---
 
 ## 1. Introduction
 
@@ -325,6 +331,10 @@ This excludes additional protocol overhead.
 
 A PL2303 USB-to-UART adapter was used to connect the development PC to the Raspberry Pi.
 
+![USB-to-UART adapter connected to the development PC](image%20%283%29.jpeg)
+
+*USB-to-UART adapter used for the serial console.*
+
 The connection was:
 
 ```text
@@ -352,6 +362,14 @@ The physical connections were:
 | RXD | GPIO14, physical pin 8 |
 | GND | Physical pin 6 |
 | VCC | Not connected |
+
+![Raspberry Pi 40-pin GPIO header pinout including UART TXD and RXD](image%20%282%29.jpg)
+
+*GPIO header reference: physical pin 8 is UART TXD, pin 10 is UART RXD, and pin 6 is GND.*
+
+![Raspberry Pi 4 connected to the USB-to-UART adapter](image%20%284%29.jpeg)
+
+*Raspberry Pi 4 and USB-to-UART adapter connected for the serial console.*
 
 The Raspberry Pi was powered separately through USB-C.
 
@@ -410,6 +428,10 @@ However, `Terminal ready` only indicates that picocom has opened the serial port
 After the Raspberry Pi was powered on, serial boot messages appeared.
 
 ## 10. Successful Boot Verification
+
+![Yocto Linux serial boot log and Raspberry Pi login prompt](image%20%281%29.png)
+
+*Serial console showing systemd startup and the raspberrypi4-64 login prompt.*
 
 The Raspberry Pi successfully initialized its Linux system and displayed the following messages:
 
